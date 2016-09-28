@@ -8,21 +8,29 @@ class Person
 
   def nickname
     # YOUR IMPLEMENTATION HERE
-    'nickname'
+    'Mich'
   end
 
   def birth_year
     # YOUR IMPLEMENTATION HERE
-    1990
+    1994
   end
 
   def introduction
     # YOUR IMPLEMENTATION HERE
-    'introduce'
+    'Hello!'
   end
 
   def fib_number
     # YOUR IMPLMENTATION HERE
-    0
+    a = 0
+    b = 1
+    age = @age.to_i
+    for i in 1..age
+      c = a + b
+      a = b
+      b = c
+    end
+    a
   end
 end
